@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     
     func setupBinding() {
         let textInput = firstTextField.rx.text
-            .observeOn(MainScheduler.instance)
+            .asDriver(onErrorJustReturn: .none)
         
-        textInput.bind(to: dummyLabel.rx.text)
+        textInput.drive(dummyLabel.rx.text)
             .disposed(by: bag)
     }
 }
