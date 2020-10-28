@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C64BE26B0FC2246EA0B9A61 /* Pods_ToyRxTextFieldTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4CBA92198FC529ED0E6B53 /* Pods_ToyRxTextFieldTests.framework */; };
 		9CBC6FAD25496DBA003DDEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC6FAC25496DBA003DDEF0 /* AppDelegate.swift */; };
 		9CBC6FAF25496DBA003DDEF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC6FAE25496DBA003DDEF0 /* SceneDelegate.swift */; };
 		9CBC6FB125496DBA003DDEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC6FB025496DBA003DDEF0 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		9CBC6FB925496DC0003DDEF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC6FB725496DC0003DDEF0 /* LaunchScreen.storyboard */; };
 		9CBC6FC425496DC1003DDEF0 /* ToyRxTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC6FC325496DC1003DDEF0 /* ToyRxTextFieldTests.swift */; };
 		9CBC6FCF25496DC1003DDEF0 /* ToyRxTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC6FCE25496DC1003DDEF0 /* ToyRxTextFieldUITests.swift */; };
+		DCB076D4E5456D763EECB0D2 /* Pods_ToyRxTextField_ToyRxTextFieldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7FC8122C3B537B39553A83 /* Pods_ToyRxTextField_ToyRxTextFieldUITests.framework */; };
+		DEFC72B35D41C716E064F836 /* Pods_ToyRxTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B138BAFBA8F13FADD4BBEC0D /* Pods_ToyRxTextField.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		115A519C189B2AB003DF2150 /* Pods-ToyRxTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextField.release.xcconfig"; path = "Target Support Files/Pods-ToyRxTextField/Pods-ToyRxTextField.release.xcconfig"; sourceTree = "<group>"; };
+		46D12A1E2AE81AAFDADE9471 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextField-ToyRxTextFieldUITests.debug.xcconfig"; path = "Target Support Files/Pods-ToyRxTextField-ToyRxTextFieldUITests/Pods-ToyRxTextField-ToyRxTextFieldUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC290E6B7E36D84FC283073 /* Pods-ToyRxTextFieldTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextFieldTests.debug.xcconfig"; path = "Target Support Files/Pods-ToyRxTextFieldTests/Pods-ToyRxTextFieldTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53EA969213519FF9C9D2F970 /* Pods-ToyRxTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextField.debug.xcconfig"; path = "Target Support Files/Pods-ToyRxTextField/Pods-ToyRxTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		75546BA4C11E4A5E660AA360 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextField-ToyRxTextFieldUITests.release.xcconfig"; path = "Target Support Files/Pods-ToyRxTextField-ToyRxTextFieldUITests/Pods-ToyRxTextField-ToyRxTextFieldUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4CBA92198FC529ED0E6B53 /* Pods_ToyRxTextFieldTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyRxTextFieldTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B7FC8122C3B537B39553A83 /* Pods_ToyRxTextField_ToyRxTextFieldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyRxTextField_ToyRxTextFieldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC6FA925496DBA003DDEF0 /* ToyRxTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyRxTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC6FAC25496DBA003DDEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CBC6FAE25496DBA003DDEF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		9CBC6FCA25496DC1003DDEF0 /* ToyRxTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToyRxTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC6FCE25496DC1003DDEF0 /* ToyRxTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyRxTextFieldUITests.swift; sourceTree = "<group>"; };
 		9CBC6FD025496DC1003DDEF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D80D73C67D5C738BBDA583 /* Pods-ToyRxTextFieldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToyRxTextFieldTests.release.xcconfig"; path = "Target Support Files/Pods-ToyRxTextFieldTests/Pods-ToyRxTextFieldTests.release.xcconfig"; sourceTree = "<group>"; };
+		B138BAFBA8F13FADD4BBEC0D /* Pods_ToyRxTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToyRxTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFC72B35D41C716E064F836 /* Pods_ToyRxTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C64BE26B0FC2246EA0B9A61 /* Pods_ToyRxTextFieldTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB076D4E5456D763EECB0D2 /* Pods_ToyRxTextField_ToyRxTextFieldUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		029A34303293219927C883DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B138BAFBA8F13FADD4BBEC0D /* Pods_ToyRxTextField.framework */,
+				8B7FC8122C3B537B39553A83 /* Pods_ToyRxTextField_ToyRxTextFieldUITests.framework */,
+				7A4CBA92198FC529ED0E6B53 /* Pods_ToyRxTextFieldTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9CBC6FA025496DB9003DDEF0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				9CBC6FC225496DC1003DDEF0 /* ToyRxTextFieldTests */,
 				9CBC6FCD25496DC1003DDEF0 /* ToyRxTextFieldUITests */,
 				9CBC6FAA25496DBA003DDEF0 /* Products */,
+				CABCF08C94544748805B1371 /* Pods */,
+				029A34303293219927C883DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = ToyRxTextFieldUITests;
 			sourceTree = "<group>";
 		};
+		CABCF08C94544748805B1371 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53EA969213519FF9C9D2F970 /* Pods-ToyRxTextField.debug.xcconfig */,
+				115A519C189B2AB003DF2150 /* Pods-ToyRxTextField.release.xcconfig */,
+				46D12A1E2AE81AAFDADE9471 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.debug.xcconfig */,
+				75546BA4C11E4A5E660AA360 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.release.xcconfig */,
+				4FC290E6B7E36D84FC283073 /* Pods-ToyRxTextFieldTests.debug.xcconfig */,
+				A3D80D73C67D5C738BBDA583 /* Pods-ToyRxTextFieldTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBC6FD325496DC1003DDEF0 /* Build configuration list for PBXNativeTarget "ToyRxTextField" */;
 			buildPhases = (
+				DF7FECF18480F07BD748CBA7 /* [CP] Check Pods Manifest.lock */,
 				9CBC6FA525496DBA003DDEF0 /* Sources */,
 				9CBC6FA625496DBA003DDEF0 /* Frameworks */,
 				9CBC6FA725496DBA003DDEF0 /* Resources */,
+				9792FB6859499ED2880EE12D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBC6FD625496DC1003DDEF0 /* Build configuration list for PBXNativeTarget "ToyRxTextFieldTests" */;
 			buildPhases = (
+				18EDA50E8D2F946DCEB03E21 /* [CP] Check Pods Manifest.lock */,
 				9CBC6FBB25496DC1003DDEF0 /* Sources */,
 				9CBC6FBC25496DC1003DDEF0 /* Frameworks */,
 				9CBC6FBD25496DC1003DDEF0 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CBC6FD925496DC1003DDEF0 /* Build configuration list for PBXNativeTarget "ToyRxTextFieldUITests" */;
 			buildPhases = (
+				424795B964FF486A7390E463 /* [CP] Check Pods Manifest.lock */,
 				9CBC6FC625496DC1003DDEF0 /* Sources */,
 				9CBC6FC725496DC1003DDEF0 /* Frameworks */,
 				9CBC6FC825496DC1003DDEF0 /* Resources */,
+				AA6829DDB61C8391E223E663 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EDA50E8D2F946DCEB03E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToyRxTextFieldTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424795B964FF486A7390E463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToyRxTextField-ToyRxTextFieldUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9792FB6859499ED2880EE12D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField/Pods-ToyRxTextField-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField/Pods-ToyRxTextField-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField/Pods-ToyRxTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6829DDB61C8391E223E663 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField-ToyRxTextFieldUITests/Pods-ToyRxTextField-ToyRxTextFieldUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField-ToyRxTextFieldUITests/Pods-ToyRxTextField-ToyRxTextFieldUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToyRxTextField-ToyRxTextFieldUITests/Pods-ToyRxTextField-ToyRxTextFieldUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7FECF18480F07BD748CBA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToyRxTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CBC6FA525496DBA003DDEF0 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		9CBC6FD425496DC1003DDEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EA969213519FF9C9D2F970 /* Pods-ToyRxTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		9CBC6FD525496DC1003DDEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115A519C189B2AB003DF2150 /* Pods-ToyRxTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +620,7 @@
 		};
 		9CBC6FD725496DC1003DDEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC290E6B7E36D84FC283073 /* Pods-ToyRxTextFieldTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		9CBC6FD825496DC1003DDEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D80D73C67D5C738BBDA583 /* Pods-ToyRxTextFieldTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		9CBC6FDA25496DC1003DDEF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D12A1E2AE81AAFDADE9471 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		9CBC6FDB25496DC1003DDEF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75546BA4C11E4A5E660AA360 /* Pods-ToyRxTextField-ToyRxTextFieldUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

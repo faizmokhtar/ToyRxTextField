@@ -6,14 +6,27 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class ViewController: UIViewController {
 
+    @IBOutlet var firstTextField: UITextField!
+    @IBOutlet var dummyLabel: UILabel!
+    
+    let bag = DisposeBag()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupBinding()
     }
-
-
+    
+    func setupBinding() {
+        let textInput = firstTextField.rx.text
+            .observeOn(MainScheduler.instance)
+        
+        textInput.bind(to: dummyLabel.rx.text)
+            .disposed(by: bag)
+    }
 }
 
