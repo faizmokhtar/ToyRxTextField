@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -30,13 +31,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ato-jD-sJv">
+                                <rect key="frame" x="20" y="223" width="374" height="40"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9CN-WZ-ERh"/>
+                                </constraints>
+                                <state key="normal" title="Update TextField">
+                                    <color key="titleColor" red="1" green="0.99998790029999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ato-jD-sJv" secondAttribute="trailing" constant="20" id="3Jh-UL-Czi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Byt-8s-odR" secondAttribute="trailing" constant="20" id="4ai-WR-IzB"/>
                             <constraint firstItem="Byt-8s-odR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5w7-RL-N3v"/>
                             <constraint firstItem="3iC-80-eDP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="AOM-jA-Jyk"/>
+                            <constraint firstItem="ato-jD-sJv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ek2-it-BPU"/>
+                            <constraint firstItem="ato-jD-sJv" firstAttribute="top" secondItem="Byt-8s-odR" secondAttribute="bottom" constant="20.5" id="FQA-9U-hGp"/>
                             <constraint firstItem="Byt-8s-odR" firstAttribute="top" secondItem="3iC-80-eDP" secondAttribute="bottom" constant="20" id="mAE-Yy-FVN"/>
                             <constraint firstItem="3iC-80-eDP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rUC-gz-DbE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3iC-80-eDP" secondAttribute="trailing" constant="20" id="xYe-ap-Sru"/>
@@ -45,6 +59,7 @@
                     <connections>
                         <outlet property="dummyLabel" destination="Byt-8s-odR" id="uMg-NP-EC3"/>
                         <outlet property="firstTextField" destination="3iC-80-eDP" id="07x-qW-V6h"/>
+                        <outlet property="updateTextFieldButton" destination="ato-jD-sJv" id="Gzv-pw-nhy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,6 +68,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
